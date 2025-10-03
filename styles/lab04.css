@@ -18,83 +18,83 @@ h1 {
     font-weight: bold; 
 }
 
-/* Universal selector to set default font */
+
 * { 
     font-family: calibri, sans-serif; 
 }
 
-/* Universal selector to set default text colour */
+
 * { 
     color: #2F4F4F; /* DarkSlateGray */
 }
 
-/* Element selector for all Heading 2 elements */
+
 h2 {
     color: rgb(0, 128, 128); /* Teal */
     font-weight: bold;
     font-size: 1.5em;
 }
 
-/* Group selector for aside and footer */
+
 aside, footer { 
     font-style: italic; 
 }
 
-/* Group selector for all heading elements */
+
 h1, h2, h3 {
     font-family: arial, sans-serif;
 }
 
-/* Element selector for the table */
+
 table {
     border: 1px solid black;
 }
 
-/* Group selector for table and its cells */
+
 table, th, td {
     border: 1px solid black;
 }
 
-/* ID selector for the Images heading */
+
 #images {
     text-align: center;
 }
 
-/* ID selector for the specific h3 element */
+
 #heading3-example {
     color: red;
 }
 
-/* Class selector for the special characters */
+
 .special {
     color: darkorange;
     font-weight: bold;
 }
 
-/* Class selector for month headers to align right */
+
 .month-header {
     text-align: right;
 }
 
-/* Contextual selector: targets <a> elements inside a <nav> element */
+
 nav a {
-    text-decoration: none; /* Removes underline */
+    text-decoration: none; 
     padding: 0.2em 0.6em;
     border: 4px solid #ccc;
 }
 
-/* Contextual selector: targets <ul> elements that are inside an <ol> element */
+
 ol ul {
     list-style-type: square;
 }
 
-/* Pseudo-class: Hides the aside element when the mouse hovers over it */
+
 aside:hover {
-    /* Sets the element to not be displayed */
+    
     display: none;
 }
 
-/* Pseudo-class: Targets <a> elements inside <nav> when hovered */
+
 nav a:hover {
     background-color: lightblue;
     border-color: darkblue;
