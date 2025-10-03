@@ -25,12 +25,12 @@ h1 {
 
 
 * { 
-    color: #2F4F4F; /* DarkSlateGray */
+    color: #2F4F4F;
 }
 
 
 h2 {
-    color: rgb(0, 128, 128); /* Teal */
+    color: rgb(0, 128, 128);
     font-weight: bold;
     font-size: 1.5em;
 }
